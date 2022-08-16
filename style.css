@@ -1,0 +1,169 @@
+* {
+    margin: 1px;
+    padding: 0;
+    background: radial-gradient(#fff, #ffd6d6);
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.menubar {
+    flex: 1;
+    text-align: right;
+}
+
+.menubar ul {
+    /* display: inline-block; */
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+.menubar ul li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px red;
+}
+li a:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    background: rgb(102, 219, 18);
+}
+
+.i1 {
+    margin: 3px 3px;
+}
+
+h1 {
+    margin: 2%;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.m1 {
+    display: inline-block;
+    padding: 0%;
+    margin: 50px;
+}
+.m2 {
+    display: inline-block;
+    padding: 0%;
+    margin: 50px;
+}
+
+.m3 {
+    display: inline-block;
+    padding: 0%;
+    margin: 50px;
+}
+
+
+.product {
+    display: flex;
+}
+
+.info1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+
+    display: inline-block;
+    padding: 0%;
+    margin: 50px;
+}
+
+.m1 h3 {
+    text-decoration: line-through;
+}
+
+.info1 h2 {
+    color: red;
+}
+
+#offers {
+    color: rgb(98, 61, 57);
+}
+
+.btn button {
+    width: 100px;
+    height: 40px;
+    background:rgba(70, 25, 7, 0.695);
+    color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+
+}
+.btn button:hover{
+    background-color: yellow;
+    color:green;
+    text-decoration: underline;
+    
+
+}
+.login{
+    
+    align-items: center;
+    width: 50%;
+    padding: 2%;
+    margin-top: 37px;
+    margin-left: 280px;
+    text-align: center;
+    color: red;
+    border: 2px solid black;
+}
+.login button{
+    width: 100px;
+    height: 40px;
+    
+}
+/* ----------------- */
+.footer{
+    background: #1e2c4e;
+    padding: 50px;
+    box-sizing: border-box;
+ 
+}
+ .contact{
+    background: red;
+    margin: auto;
+} 
+.row{
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+    
+}
+.footer-col{
+    width: 25%;
+    
+    padding: 25px;
+    
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin: 100px;
+    
+}
+.logoimg{
+    margin-left: 550px;
+}
